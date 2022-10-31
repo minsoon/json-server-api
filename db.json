@@ -5,6 +5,7 @@
     },
     "carts": [
       {
+        "cartUnitId": 1234,
         "seller": {
           "miniShopName": "누리푸드",
           "sellerKey": "109836496",
