@@ -11,18 +11,18 @@
           "sellerName": "(주)누리푸드",
           "shopLink": "noorynet"
         },
-        "items: [
+        "items": [
           {
             "cartUnitId": 1,
-            "itemName": '상품이름1',
-            "itemImageUrl": 'imgurl',
+            "itemName": "상품이름1",
+            "itemImageUrl": "imgurl",
             "quantity": 12345,
             "itemSellPrice": 1234
           },
           {
             "cartUnitId": 2,
-            "itemName": '상품이름2',
-            "itemImageUrl": 'imgurl',
+            "itemName": "상품이름2",
+            "itemImageUrl": "imgurl",
             "quantity": 234,
             "itemSellPrice": 1225634
           }
