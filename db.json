@@ -103,36 +103,35 @@
       "imageUrl": "http://placeimg.com/640/480/fashion"
     }
   ],
-  "carts": [
-    {
-      "id": 1,
-      "name": "Intelligent Metal Mouse",
-      "price": "84.00",
-      "imageUrl": "http://placeimg.com/640/480/fashion"
+  "cart": {
+    buyer: {    
+      buyerName: "성민창"
     },
-    {
-      "id": 7,
-      "name": "Awesome Concrete Shirt",
-      "price": "165.00",
-      "imageUrl": "http://placeimg.com/640/480/fashion"
-    },
-    {
-      "id": 8,
-      "name": "Refined Fresh Chicken",
-      "price": "209.00",
-      "imageUrl": "http://placeimg.com/640/480/fashion"
-    },
-    {
-      "id": 9,
-      "name": "Refined Fresh Chicken",
-      "price": "209.00",
-      "imageUrl": "http://placeimg.com/640/480/fashion"
-    },
-    {
-      "id": 10,
-      "name": "Refined Fresh Chicken",
-      "price": "209.00",
-      "imageUrl": "http://placeimg.com/640/480/fashion"
-    }
-  ]
+    carts: [
+      {
+        seller: {
+          miniShopName: "누리푸드",
+          sellerKey: "109836496",
+          sellerName: "(주)누리푸드",
+          shopLink: "noorynet"
+        },
+        items: [
+          {
+            cartUnitId: 1,
+            itemName: '상품이름1',
+            itemImageUrl: 'imgurl',
+            quantity: 12345,
+            itemSellPrice: 1234
+          },
+          {
+            cartUnitId: 2,
+            itemName: '상품이름2',
+            itemImageUrl: 'imgurl',
+            quantity: 234,
+            itemSellPrice: 1225634
+          }
+        ]
+      }
+    ]
+  }
 }
